@@ -1,0 +1,28 @@
+{
+  "name": "fork-merge-stream",
+  "version": "1.0.0",
+  "description": "Fork Merge stream sends data out into a set of streams, accumulates the results and push it downstream.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepikakoduri/fork-merge-stream.git"
+  },
+  "keywords": [
+    "fork",
+    "merge",
+    "stream"
+  ],
+  "author": "deepika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepikakoduri/fork-merge-stream/issues"
+  },
+  "homepage": "https://github.com/deepikakoduri/fork-merge-stream#readme",
+  "dependencies": {
+    "merge-stream": "^1.0.1",
+    "path": "^0.12.7"
+  }
+}
